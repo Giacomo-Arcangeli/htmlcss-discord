@@ -18,13 +18,21 @@ body{
 }
 
 .bg-1{
-    background-color: lightgoldenrodyellow;
+    background-color: white;
 }
 .bg-2{
-    background-color: lightgray
+    background-color: rgb(246,246,246)
 }
 .bg-3{
     background-color: darkslategrey;
+}
+
+.wave{
+    display: block;
+}
+
+.upside-down{
+    rotate: 0.5turn;
 }
 
 /* HEADER */
@@ -77,7 +85,7 @@ header{
 /* box piccolo */
 
 .row-1{
-    height: 350px;
+    min-height: 373px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,12 +93,13 @@ header{
 
 .box-1{
     flex-basis: 750px;
-    height: 280px;
-    text-align: center; 
+    height: 373px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .header-title{
-    font-size: 40px;
+    font-size: 42px;
     padding: 30px 0;
 
 }
@@ -123,7 +132,7 @@ header{
 /* box simili */
 
 .row-2{
-    min-height: 350px;
+    min-height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,18 +140,38 @@ header{
 
 .box-2{
     display: flex;
-    height: 280px;
-    border: 2px dashed black;
+    height: 480px;
 }
 .left{
     flex-basis: 60%;
-    background-color: cornflowerblue;
-    border-right: 2px dashed black;
+    padding: 60px;
+    
 }
 
 .right{
     flex-basis: 40%;
-    background-color: blueviolet;
+}
+
+.section-img{
+    width: 500px;
+}
+
+.section-title{
+    font-size: 38px;
+    padding: 75px 130px 25px 20px;
+}
+
+.section-text{
+    padding: 0 140px 0 20px;
+}
+
+.section-title-reverse{
+    font-size: 38px;
+    padding: 75px 20px 25px 110px;
+}
+
+.section-text-reverse{
+    padding: 0 20px 0 110px;
 }
 
 /* box grande */
@@ -157,7 +186,6 @@ header{
 .box-3{
     height: 560px;
     border: 2px dashed black;
-    background-color: green
 }
 
 /* box con minibox */
