@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
 /* UTILITIES */
 
 .container{
@@ -26,47 +30,54 @@
 /* HEADER */
 
 header{
-    background-color: rgb(112, 219, 251);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     min-height: 80px;
     padding: 20px; 
+    color: white;
 }
 
 .menu{
-    background-color: orange;
+    
     width: 1080px;
     margin: 0 auto;
     min-height: 50px;
     display: flex;
     justify-content: space-between;
-    border: 2px dashed black;
 }
 
 .logo{
     flex-basis: 20%;
-    border-right: 2px dashed black;
-    padding: 15px
+    padding: 15px;
+    font-size: 20px;
 }
 
-.link{
+.nav{
     flex-basis: 60%;
     text-align: center;
-    padding: 15px
+    padding: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 .login{
     flex-basis: 20%;
-    border-left: 2px dashed black;
     text-align: end;
-    padding: 15px
+    padding: 15px;
+}
+.login-button{
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black
 }
 
-/* MAIN */
 
 /* box piccolo */
 
 .row-1{
-    min-height: 350px;
-    background-color: rgb(1, 1, 205);
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,9 +86,39 @@ header{
 .box-1{
     flex-basis: 750px;
     height: 280px;
-    background-color: pink;
-    border: 2px dashed black;
+    text-align: center; 
 }
+
+.header-title{
+    font-size: 40px;
+    padding: 30px 0;
+
+}
+
+.header-text{
+    padding: 0 60px 40px 60px;
+}
+
+.download{
+    background-color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.open{
+    background-color: rgb(24, 24, 24);
+    padding: 12px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* MAIN */
+
 
 /* box simili */
 
