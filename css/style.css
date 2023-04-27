@@ -24,7 +24,7 @@ body{
     background-color: rgb(246,246,246)
 }
 .bg-3{
-    background-color: darkslategrey;
+    background-color: rgb(35,39,42);
 }
 
 .wave{
@@ -46,17 +46,13 @@ header{
 }
 
 .menu{
-    
-    width: 1080px;
-    margin: 0 auto;
     min-height: 50px;
     display: flex;
-    justify-content: space-between;
 }
 
 .logo{
     flex-basis: 20%;
-    padding: 15px;
+    padding: 8px 15px 8px 40px;
     font-size: 20px;
 }
 
@@ -71,7 +67,7 @@ header{
 .login{
     flex-basis: 20%;
     text-align: end;
-    padding: 15px;
+    padding: 15px 85px 15px 15px;
 }
 .login-button{
     background-color: white;
@@ -82,7 +78,7 @@ header{
 }
 
 
-/* box piccolo */
+/* box bottom header */
 
 .row-1{
     min-height: 373px;
@@ -99,7 +95,7 @@ header{
 }
 
 .header-title{
-    font-size: 42px;
+    font-size: 45px;
     padding: 30px 0;
 
 }
@@ -118,7 +114,7 @@ header{
 }
 
 .open{
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(41, 40, 40);
     padding: 12px 18px;
     border-radius: 20px;
     text-decoration: none;
@@ -129,7 +125,7 @@ header{
 /* MAIN */
 
 
-/* box simili */
+/* box similar */
 
 .row-2{
     min-height: 480px;
@@ -174,74 +170,138 @@ header{
     padding: 0 20px 0 110px;
 }
 
-/* box grande */
+/* box big */
 
 .row-3{
-    min-height: 630px;
+    min-height: 980px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box-3{
-    height: 560px;
-    border: 2px dashed black;
+    min-height: 980px;
+    text-align: center;
+    margin-top: 30px;
 }
 
-/* box con minibox */
+.section-title-3{
+    font-size: 38px;
+}
+
+.section-text-3{
+    padding: 30px 130px;
+}
+
+.big-img{
+    width: 950px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.download-2{
+    background-color: rgb(136, 145, 240);
+    padding: 12px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.download-box{
+margin-top: 35px;
+}
+
+
+/* FOOTER */
+
+
+/* footer top */
 
 .row-4{
-    height: 420px;
+    min-height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box-4{
+
+.footer-top{
     display: flex;
     height: 380px;
-    border: 2px dashed black;
     margin-bottom: 20px;
+    color: white;
+    border-bottom: 1px solid rgb(87,101,242);
 }
 
 .left-2{
     flex-basis: 30%;
-    background-color: rgb(237, 100, 100);
-    border-right: 2px dashed black;
+    padding-left: 50px;
 }
 
 .right-2{
     flex-basis: 70%;
-    background-color: darkturquoise;
     display: flex;
+    padding: 50px 30px 0 30px;
 }
 .minibox{
     flex-basis: 25%;
-    border: 2px dashed white;
 }
 
-/* FOOTER */
-
-footer{
-    min-height: 80px;
-    background-color: darkslategrey;
-    margin: 2px 0;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+.footer-title{
+    color: rgb(87,101,242);
+    padding: 50px 50px 25px 0;
+    font-size: 30px;
 }
 
-.footer-box{
-    background-color: aquamarine;
-    width: 1080px;
-    height: 60px;
+.language-box{
+    padding-bottom: 20px;
+}
+
+.language{
+    width: 20px;
+    margin-right: 5px;
+}
+
+span{
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.fa-brands{
+    width: 40px;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.li-title{
+    color: rgb(87,101,242);
+}
+
+li{
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* footer bottom */
+
+.row-5{
+    height: 150px;
+}
+
+.footer-bottom{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 0 50px;
 }
 
-.button{
-    background-color: darksalmon;
-    width: 70px;
-    height: 30px;
-    border: 2px dashed black;
+.sign-button{
+    background-color: rgb(136, 145, 240);
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
 }
