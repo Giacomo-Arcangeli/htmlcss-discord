@@ -99,6 +99,7 @@ header{
 
 .header-text{
     padding: 0 60px 40px 60px;
+    line-height: 25px;
 }
 
 .download{
@@ -156,6 +157,7 @@ header{
 
 .section-text{
     padding: 0 140px 0 20px;
+    line-height: 25px;
 }
 
 .section-title-reverse{
@@ -165,6 +167,7 @@ header{
 
 .section-text-reverse{
     padding: 0 20px 0 110px;
+    line-height: 25px;
 }
 
 /* box big */
@@ -188,6 +191,7 @@ header{
 
 .section-text-3{
     padding: 30px 130px;
+    line-height: 25px;
 }
 
 .big-img{
